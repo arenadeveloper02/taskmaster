@@ -1,0 +1,12 @@
+import AppShell from '@/components/AppShell';
+import SettingsClient from '@/components/SettingsClient';
+
+export const metadata = { title: 'Settings | TaskMaster' };
+
+export default function SettingsPage() {
+  return (
+    <AppShell>
+      <SettingsClient />
+    </AppShell>
+  );
+}
